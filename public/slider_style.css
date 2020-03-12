@@ -1,0 +1,21 @@
+.slider_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider{
+    max-width: 65%;
+}
+
+.slides img{
+    width: 96%;
+    min-height: 200px;
+    max-height: 200px;
+    margin: 0 4%;
+}
+
+
+.slick-next{
+    margin: 0 -15px;
+}

@@ -1,0 +1,47 @@
+/*@media only screen and (max-width: 480px){*/
+@media (max-width: 1300px) and (min-width: 320px){
+
+
+.content{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.container-small, .container-full{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.first-page, .subjects-galery,.entertainment-galery,.foot{
+	grid-template-columns:1fr;
+}
+.networks{
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+	
+.foot> .contacts{
+	text-align: center;
+}
+.networks img{
+	height: 60px;
+	width: 60px;
+}
+
+.first-page{
+	grid-gap: 20px;
+}
+
+.first-page, .entertainment {
+	padding-bottom: 40px;
+} 
+.first-page, .lessons {
+	padding-top: 50px;
+}
+.eng-heading{
+	font-size:40px;
+}
+.ukr-heading, .period{
+	font-size: 24px;
+}
+
+}
